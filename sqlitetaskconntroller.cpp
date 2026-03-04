@@ -1,6 +1,11 @@
 #include "sqlitetaskconntroller.h"
+//pattern Singleton
+SQLiteTaskConntroller& SQLiteTaskConntroller::getInstance() {
+    static SQLiteTaskConntroller instance;
+    return instance;
+}
 
-SQLiteTaskConntroller::SQLiteTaskConntroller() {
+bool SQLiteTaskConntroller::createTable() {
     context.setDBInfo(SQLite, "ProjectMan.db");
 
     QSqlQuery query_create_table(context.getmDB());

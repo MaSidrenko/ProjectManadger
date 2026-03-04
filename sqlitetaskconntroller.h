@@ -13,8 +13,12 @@ class SQLiteTaskConntroller : IDBController
 private:
     // QSqlDatabase db;
     DBContext context;
+    SQLiteTaskConntroller() = default;
+    SQLiteTaskConntroller(const SQLiteTaskConntroller&) = delete;
+    SQLiteTaskConntroller& operator=(const SQLiteTaskConntroller&) = delete;
 public:
-    SQLiteTaskConntroller();
+    static SQLiteTaskConntroller& getInstance();
+    bool createTable();
     ReturnType add(std::any item)override;
     ReturnType refresh()override;
     ReturnType select(QDate deadline)override;

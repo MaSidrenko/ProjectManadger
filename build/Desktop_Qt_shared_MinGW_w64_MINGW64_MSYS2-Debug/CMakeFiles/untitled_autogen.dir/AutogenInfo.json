@@ -345,6 +345,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.h",
+			"MU",
+			"EWIEGA46WW/moc_addtask.cpp",
+			null
+		],
+		[
 			"E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/dbcontext.h",
 			"MU",
 			"EWIEGA46WW/moc_dbcontext.cpp",
@@ -450,6 +456,11 @@
 	"SETTINGS_FILE" : "E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.cpp",
+			"MU",
+			null
+		],
 		[
 			"E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/dbcontext.cpp",
 			"MU",

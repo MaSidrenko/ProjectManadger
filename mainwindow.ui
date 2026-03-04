@@ -17,11 +17,37 @@
    <widget class="QTableWidget" name="testDB">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>190</y>
-      <width>591</width>
-      <height>361</height>
+      <x>10</x>
+      <y>50</y>
+      <width>781</width>
+      <height>501</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>641</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>as</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openAddTaskWindowButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>20</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add task</string>
     </property>
    </widget>
   </widget>

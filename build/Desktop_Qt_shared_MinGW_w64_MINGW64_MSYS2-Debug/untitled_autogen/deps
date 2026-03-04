@@ -366,6 +366,7 @@ untitled_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtSql/qtsql-config.h \
 	C:/msys64/mingw64/include/qt6/QtSql/qtsqlexports.h \
 	C:/msys64/mingw64/include/qt6/QtSql/qtsqlglobal.h \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QHeaderView \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QTableWidget \
@@ -374,6 +375,7 @@ untitled_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractslider.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractspinbox.h \
+	C:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qheaderview.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
@@ -628,6 +630,8 @@ untitled_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/CMakeLists.txt \
+	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.cpp \
+	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.h \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/4.2.3/CMakeRCCompiler.cmake \
@@ -644,5 +648,6 @@ untitled_autogen/timestamp: \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/sqlitetaskconntroller.h \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/task.cpp \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/task.h \
+	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.ui \
 	E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/mainwindow.ui \
 	C:/msys64/mingw64/bin/cmake.exe

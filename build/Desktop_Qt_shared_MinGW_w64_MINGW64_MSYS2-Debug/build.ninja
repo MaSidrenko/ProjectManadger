@@ -119,6 +119,16 @@ build CMakeFiles/untitled.dir/dbcontext.cpp.obj: CXX_COMPILER__untitled_unscanne
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
   TARGET_SUPPORT_DIR = CMakeFiles\untitled.dir
 
+build CMakeFiles/untitled.dir/addtask.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug E$:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.cpp || cmake_object_order_depends_target_untitled
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\untitled.dir\addtask.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/untitled_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui -isystem C:/msys64/mingw64/include/qt6/QtSql
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -127,7 +137,7 @@ build CMakeFiles/untitled.dir/dbcontext.cpp.obj: CXX_COMPILER__untitled_unscanne
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/mainwindow.cpp.obj CMakeFiles/untitled.dir/idbcontroller.cpp.obj CMakeFiles/untitled.dir/task.cpp.obj CMakeFiles/untitled.dir/sqlitetaskconntroller.cpp.obj CMakeFiles/untitled.dir/dbcontext.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Sql.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || untitled_autogen untitled_autogen_timestamp_deps
+build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/mainwindow.cpp.obj CMakeFiles/untitled.dir/idbcontroller.cpp.obj CMakeFiles/untitled.dir/task.cpp.obj CMakeFiles/untitled.dir/sqlitetaskconntroller.cpp.obj CMakeFiles/untitled.dir/dbcontext.cpp.obj CMakeFiles/untitled.dir/addtask.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Sql.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || untitled_autogen untitled_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -g
   LINK_FLAGS = -mwindows
@@ -215,7 +225,7 @@ build untitled_autogen_timestamp_deps: phony
 #############################################
 # Utility command for untitled_autogen
 
-build untitled_autogen: phony CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h untitled_autogen/timestamp untitled_autogen/mocs_compilation.cpp untitled_autogen_timestamp_deps
+build untitled_autogen: phony CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h untitled_autogen/include/ui_addtask.h untitled_autogen/timestamp untitled_autogen/mocs_compilation.cpp untitled_autogen_timestamp_deps
 
 
 #############################################
@@ -232,7 +242,7 @@ build untitled_autogen/timestamp untitled_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles\untitled_autogen
 
-build CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/untitled_autogen ${cmake_ninja_workdir}untitled_autogen/include/ui_mainwindow.h: phony untitled_autogen/timestamp || untitled_autogen_timestamp_deps
+build CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h untitled_autogen/include/ui_addtask.h | ${cmake_ninja_workdir}CMakeFiles/untitled_autogen ${cmake_ninja_workdir}untitled_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}untitled_autogen/include/ui_addtask.h: phony untitled_autogen/timestamp || untitled_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

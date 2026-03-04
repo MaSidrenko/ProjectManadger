@@ -9,6 +9,7 @@
 #include <QDebug>
 #include <QTableWidget>
 #include <QHeaderView>
+#include "addtask.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,8 +25,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_openAddTaskWindowButton_clicked();
 private:
     Ui::MainWindow *ui;
-    QSqlDatabase m_db;
+    bool loadTable(QTableWidget* table);
+    AddTask *add_task;
 };
 #endif // MAINWINDOW_H

@@ -367,6 +367,7 @@ E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_sh
   C:/msys64/mingw64/include/qt6/QtSql/qtsql-config.h \
   C:/msys64/mingw64/include/qt6/QtSql/qtsqlexports.h \
   C:/msys64/mingw64/include/qt6/QtSql/qtsqlglobal.h \
+  C:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
   C:/msys64/mingw64/include/qt6/QtWidgets/QHeaderView \
   C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
   C:/msys64/mingw64/include/qt6/QtWidgets/QTableWidget \
@@ -375,6 +376,7 @@ E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_sh
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractslider.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qabstractspinbox.h \
+  C:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qheaderview.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
@@ -413,4 +415,5 @@ E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/build/Desktop_Qt_sh
   C:/msys64/mingw64/include/vadefs.h \
   C:/msys64/mingw64/include/wchar.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
+  E:/Users/Maxim_Sidorenko/soutceQtCreator/ProjectMan/untitled/addtask.h

@@ -12,8 +12,10 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableWidget>
 #include <QtWidgets/QWidget>
@@ -25,6 +27,8 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QTableWidget *testDB;
+    QLineEdit *lineEdit;
+    QPushButton *openAddTaskWindowButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -37,7 +41,13 @@ public:
         centralwidget->setObjectName("centralwidget");
         testDB = new QTableWidget(centralwidget);
         testDB->setObjectName("testDB");
-        testDB->setGeometry(QRect(200, 190, 591, 361));
+        testDB->setGeometry(QRect(10, 50, 781, 501));
+        lineEdit = new QLineEdit(centralwidget);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(10, 20, 641, 24));
+        openAddTaskWindowButton = new QPushButton(centralwidget);
+        openAddTaskWindowButton->setObjectName("openAddTaskWindowButton");
+        openAddTaskWindowButton->setGeometry(QRect(660, 20, 131, 21));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -55,6 +65,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        lineEdit->setText(QCoreApplication::translate("MainWindow", "as", nullptr));
+        openAddTaskWindowButton->setText(QCoreApplication::translate("MainWindow", "Add task", nullptr));
     } // retranslateUi
 
 };
